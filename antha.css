@@ -1,7 +1,6 @@
 .main-bg{
     background-color: black;
-    height: fit-content;
-    width: fit-content;
+    
     background-size: cover;
 
 }
@@ -15,6 +14,7 @@
     background-size: cover;
     width: 100%;
     background-image: url("blur-test.jpeg") ;
+    background-size: cover;
     border-radius: 5px;
     
     border-style: solid;
