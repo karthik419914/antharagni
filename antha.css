@@ -21,3 +21,13 @@
     text-align: center;
 
 }
+.btn{
+ border-radius: 8px;
+ border-color: white;
+ 
+ border-style: solid;
+ color:white;
+ font-family: Georgia, serif; 
+ font-size: 70px;
+ background-color: black;
+}
