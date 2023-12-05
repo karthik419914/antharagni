@@ -24,10 +24,12 @@
 .btn{
  border-radius: 8px;
  border-color: white;
- 
- border-style: solid;
+ border-width: 8px;
+ border-style: dashed;
  color:white;
  font-family: Georgia, serif; 
  font-size: 70px;
+font-weight: bold;
  background-color: black;
+margin-top: 50px;
 }
