@@ -108,8 +108,9 @@
     <title>Antharagni website</title>
 </head>
 <body class="main-bg" >
-   
-    <div class="logo-bg  ">
+   <div id="preloader"></div>
+    
+   <div class="logo-bg  ">
             <img src="logo.png">
     </div>
      
@@ -308,7 +309,14 @@
         }
 </script>
 
+<script>
+  var loader =document.getElementById("preloader");
 
+
+  window.addEventListener("load",function(){
+   loader.style.display="none";
+  })
+</script>
 
 </body>
 </html>
